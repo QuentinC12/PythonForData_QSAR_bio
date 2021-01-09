@@ -12,6 +12,7 @@ Dans notre cas ce dataset montre différentes structures chimiques corrélées a
 
 Notre objectif est de réaliser un modèle qui nous permettra par la suite de trouver la target (biodégradable ou non) en fonction de la structure de la molécule.
 Le tout sera implementé dans une API qui permettra d'émettre des requêtes POST pour envoyer les paramètres de la structure chimique et d'obtenir une réponse sur sa classe experimentale.
+![](images/image1.PNG)
 
 ### Méthode
 
