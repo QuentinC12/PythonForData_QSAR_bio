@@ -34,12 +34,19 @@ _ Random Forest
 
 Les résultats de notre visualisation de données nous permettent d'obtenir les features ayant la plus forte incidence sur la classe experimentale (Ready biodegradable, Not Ready biodegradable).
 Résultat:
+
 _C%
+
 _nO
+
 _HyWi_B(m)¶
+
 _SpPosA_B(p)
+
 _SpMax_B(m)
+
 _SM6_B(m)
+
 Sont les variables ayant la plus forte incidence sur notre target.
 
 Les résultats des modélisation nous ont permis de voir que la méthode des random forest était la plus optimale pour notre dataset.
