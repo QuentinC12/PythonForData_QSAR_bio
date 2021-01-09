@@ -28,7 +28,9 @@ Le tout sera implementé dans une API qui permettra d'émettre des requêtes POS
 ### Méthode
 
 La réalisation du modèle est passée par plusieurs étapes.
+
 _ Visualisation des données
+
 _ Modélisation
 
 La visualisation des données a permis d'obtenir de nombreuses informations notamment le fait que certaines variables soient correlées entre elle.
@@ -37,7 +39,9 @@ On obtient également les résultats nous montrant les variables ayant la plus f
 
 La Modélisation s'est fait sur plusieurs classifieurs de façon à trouver celui ayant l'accuracy la plus élévée. 
 Deux classifieurs ont été utilisé: 
+
 _ Knn
+
 _ Random Forest
 
 ### Résultats
