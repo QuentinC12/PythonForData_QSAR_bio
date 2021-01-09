@@ -167,7 +167,7 @@ Même principe pour une molécule biodégradable.
 
 ![](images/image6.PNG)
 
-![](images/image7.PNG)
+![](images/image7f.PNG)
 
 notre molécule est donc biodégradable.
 
