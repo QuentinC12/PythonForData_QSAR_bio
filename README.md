@@ -39,7 +39,7 @@ _C%
 
 _nO
 
-_HyWi_B(m)¶
+_HyWi_B(m)
 
 _SpPosA_B(p)
 
@@ -62,6 +62,118 @@ Il n'est accessible qu'en méthode POST et permet d'envoyer les features d'une s
 Aucun front-end n'a été implementé, de ce fait j'ai utilisé Postman pour effectuer mes requêtes.
 
 ![](images/image2.PNG)
+
+## Utilisation de l'api avec postman
+
+Commençons par ouvrir postman et créons une requête comme suit:
+Requête à ce lien: localhost:5000/predict avec la méthode POST
+
+![](images/image3.PNG)
+
+Nous allons maintenant ajouter des paramètres à notre requête, ceux-ci sont la structure chimique d'une molécule que j'ai pris dans ma dataset de test.
+Corps de la requête:
+
+{
+    "J_Dz(e)":-0.754206,
+    "nHM":-0.480821,
+    "F01[N-N]":-0.168237,
+    "F04[C-N]":-0.410500,
+    "NssssC":1.585458,
+    "nCb-":-0.749313,
+    "C%":-0.283541,
+    "nCp":0.775415,
+    "nO":-0.451117, 
+    "F03[C-N]":-0.445567, 
+    "SdssC":0.262428, 
+    "HyWi_B(m)":-0.418828, 
+    "LOC":-0.620738, 
+    "F03[C-O]":0.081559, 
+    "Me":-0.828728,
+    "Mi":0.182797,
+    "nN-N":-0.087464, 
+    "nArNO2":-0.212861, 
+    "nCRX3":-0.113205, 
+    "SpPosA_B(p)":-0.169166, 
+    "nCIR":0.288682, 
+    "B01[C-Br]":-0.19539,
+    "B03[C-Cl]":-0.421158, 
+    "N-073":-0.158392, 
+    "Psi_i_1d":0.032994, 
+    "B04[C-Br]":-0.151849, 
+    "SdO":-0.732587, 
+    "TI2_L":-0.901509, 
+    "nCrt":1.277714,
+    "C-026":-0.588916, 
+    "F02[C-N]":-0.557402, 
+    "nHDon":0.028691, 
+    "SpMax_B(m)":-0.221433, 
+    "Psi_i_A":-0.910685, 
+    "nN":-0.627501, 
+    "SM6_B(m)":-0.457093,
+    "nArCOOR":-0.158956, 
+    "nX":-0.32553
+}
+
+![](images/image4.PNG)
+
+Lors de l'envoi de cette requête nous obtenons le résultat suivant:
+
+![](images/image5.PNG)
+
+Notre molécule est donc non biodégradable.
+
+Même principe pour une molécule biodégradable.
+
+{
+    "J_Dz(e)":-0.1552148938330818,
+    "nHM":-0.48082093572289397,
+    "F01[N-N]":-0.1682374430611899,
+    "F04[C-N]":0.015147609361559448,
+    "NssssC":-0.27991692717209804,
+    "nCb-":0.1530739135469291,
+    "C%":0.21057861062382474,
+    "nCp":0.2908523469028476,
+    "nO":-1.021269929290358, 
+    "F03[C-N]":0.18149982219684982, 
+    "SdssC":0.2624283649851538, 
+    "HyWi_B(m)":-0.5069777794352162, 
+    "LOC":-0.18862537200328958, 
+    "F03[C-O]":-0.8027435509790835, 
+    "Me":-0.8509477186192447,
+    "Mi":-0.022941184396142053,
+    "nN-N":-0.08746434675422707, 
+    "nArNO2":-0.21286105660236668, 
+    "nCRX3":-0.11320502839602563, 
+    "SpPosA_B(p)":0.31726369165919055, 
+    "nCIR":-0.08832631474678228, 
+    "B01[C-Br]":-0.19539022468250006,
+    "B03[C-Cl]":-0.4211582857738616, 
+    "N-073":-0.15839191898578664, 
+    "Psi_i_1d":0.09355003057533975, 
+    "B04[C-Br]":-0.15184943999628206, 
+    "SdO":-0.7325872647566545, 
+    "TI2_L":-0.4438890461033984, 
+    "nCrt":-0.20387178484412766,
+    "C-026":0.09490802351194985, 
+    "F02[C-N]":0.3453641100752494, 
+    "nHDon":0.8349140876514355, 
+    "SpMax_B(m)":-0.26180330606915536, 
+    "Psi_i_A":-0.7582022692125185, 
+    "nN":0.29891445487492024, 
+    "SM6_B(m)":-0.4206738172904736,
+    "nArCOOR":-0.15895646195030355, 
+    "nX":-0.3255304439305592
+}
+
+![](images/image6.PNG)
+
+![](images/image7.PNG)
+
+notre molécule est donc biodégradable.
+
+
+
+
 
 
 
