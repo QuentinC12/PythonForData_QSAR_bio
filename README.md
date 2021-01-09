@@ -13,7 +13,9 @@ Dans notre cas ce dataset montre différentes structures chimiques corrélées a
 Ce github comprends:
 
 _ Une version PDF du powerpoint du projet.
+
 _ le notebook du projet dans le fichier se nommant: Analyzis.ipynb.
+
 _ une api flask avec model.py se trouvant dans le dossier backend.
 
 ## Objectif
