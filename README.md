@@ -54,5 +54,7 @@ J'ai implémenté un endpoints se trouvant à cette adresse localhost:5000/predi
 Il n'est accessible qu'en méthode POST et permet d'envoyer les features d'une structure chimique et de recevoir sa classification (RB ou NRB)
 Aucun front-end n'a été implementé, de ce fait j'ai utilisé Postman pour effectuer mes requêtes.
 
+![](images/image2.PNG)
+
 
 
