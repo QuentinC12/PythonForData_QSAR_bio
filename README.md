@@ -171,6 +171,11 @@ Même principe pour une molécule biodégradable.
 
 notre molécule est donc biodégradable.
 
+## Conclusion
+
+Nous avons crée une API employant un modèle permettant de trouver la target c'est à dire la biodegradabilité d'une structure chimique en fonction des features passées en paramètres.
+
+
 
 
 
