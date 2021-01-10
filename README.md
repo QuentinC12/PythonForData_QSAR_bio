@@ -63,7 +63,7 @@ _SM6_B(m)
 
 Sont les variables ayant la plus forte incidence sur notre target.
 
-Les résultats des modélisation nous ont permis de voir que la méthode des random forest était la plus optimale pour notre dataset.
+Les résultats des modélisations nous ont permis de voir que la méthode des random forest était la plus optimale pour notre dataset.
 Une Gridsearch et une cross validation ont permis d'obtenir les hyperparamètres ayant la meilleure accuracy pour notre modèle.
 C'est donc à l'aide de ces méthodes que nous avons obtenu un modèle se basant sur le classifieur Random Forest ayant les paramètres les plus optimaux.
 
